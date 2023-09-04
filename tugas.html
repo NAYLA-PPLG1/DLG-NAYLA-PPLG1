@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+        }
+        main{
+            border:groove black;
+            width: 200px;
+            height: 300px;
+            text-align: center;
+        }
+        img{
+            width: 50px;
+            padding-top: 15px;
+        }
+        h2, p{
+            text-align: center;
+        }
+        button{
+            color:white;
+            background-color: black;
+            height: 35px;
+            width:150px;
+            border-radius: 17px;
+            margin-top: 8px;
+        }
+        .nay{
+            background-color: palevioletred;
+            padding: 5px 20px 10px 10px;
+            border: 0px;
+           
+            
+        }
+        .nayy{
+            color: white;
+        }
+        .nayol{
+            background-color: white;
+            color:palevioletred;
+            height: 35px;
+            width:150px;
+            border-radius: 17px;
+            margin-top: 8px;
+            border:0px;
+        }
+        .naynay{
+            color: white;
+        }
+        .ig{
+            width: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <div>
+            <img src="data:image/png;base64,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">
+            <br />
+            <h2>TWITTER</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?
+            </p>
+            <button>READ MORE</button>    
+        </div>
+    </main>
+    <main class="nay">
+        <img src ="https://i.pinimg.com/originals/2e/e2/83/2ee283998d0c05c64fd6abbcda556f01.png" class="ig">
+        <br />
+        <h2 class="naynay">INSTAGRAM</h2>
+        <P class="nayy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque
+
+            reiciendis error?</P>
+        <button class="nayol">READ MORE</button>
+    </main>
+</body>
+</html>
